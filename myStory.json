@@ -1,0 +1,523 @@
+{
+    "Title": "Alaska: Lone Survivor",
+    "Credits": "Created by Adam Smith (amsmith@ucsc.edu).",
+    "InitialLocation": "c3",
+    "Locations": {
+        "c3": {
+            "Body": "You're near the plane wreck where you woke up. A water well is also nearby, so you hydrate yourself.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "c2"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "b3"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "d3"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "c4"
+                }
+            ], "Food": 0, "Shelter": 0
+        },
+        "a1": {
+            "Body": "You found a key in this area. This bodes well for your survival.",
+            "Choices": [
+                {
+                    "Text": "Walk East",
+                    "Target": "b1"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "a2"
+                }
+            ], "Food": 0, "Shelter": 0
+        },
+        "a2": {
+            "Body": "Nothing here but some broken husks that used to be buildings. They might be sheltered enough to protect you from the cold night.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "a1"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "b2"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "a3"
+                },
+                {
+                    "Text": "Stay in the shelter overnight.",
+                    "Target": "a2"
+                }
+            ], "Food": 0, "Shelter": 1
+        },
+        "a3": {
+            "Body": "You found some slightly burned rations from the plane crash, so you help yourself.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "a2"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "b3"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "a4"
+                }
+            ], "Food": 1, "Shelter": 0
+        },
+        
+        "a4": {
+            "Body": "Nothing Here.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "a3"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "b4"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "a5"
+                }
+            ], "Food": 0, "Shelter": 0
+        },
+
+        "a5": {
+            "Body": "You find a berry bush. Starving from the traumatic crash, you eat them regardless of possible poison.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "a4"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "b5"
+                }
+            ], "Food": 1, "Shelter": 0
+        },
+
+        "b1": {
+            "Body": "Nothing here but a cave that could protect you from the cold.",
+            "Choices": [
+                {
+                    "Text": "Walk West",
+                    "Target": "a1"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "c1"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "b2"
+                },
+                {
+                    "Text": "Stay in the shelter overnight.",
+                    "Target": "mEnd"
+                }
+            ], "Food": 0, "Shelter": 0
+        },
+
+
+        "b2": {
+            "Body": "Nothing Here.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "b1"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "a2"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "c2"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "b3"
+                }
+            ], "Food": 0, "Shelter": 0
+        },
+
+
+        "b3": {
+            "Body": "Nothing Here.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "b2"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "a3"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "c3"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "b4"
+                }
+            ], "Food": 0, "Shelter": 0
+        },
+
+        "b4": {
+            "Body": "Nothing here but some broken husks that used to be buildings. They might be sheltered enough to protect you from the cold night.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "b3"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "a4"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "c4"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "b5"
+                },
+                {
+                    "Text": "Stay in the shelter overnight.",
+                    "Target": "b4"
+                }
+            ], "Food": 0, "Shelter": 1
+        },
+
+        "b5": {
+            "Body": "Nothing Here.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "b4"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "a5"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "c5"
+                }
+            ], "Food": 0, "Shelter": 0
+        },
+
+        "c1": {
+            "Body": "You found a body from the plane, and after searching it, you find some food in their pockets and chow down.",
+            "Choices": [
+                {
+                    "Text": "Walk West",
+                    "Target": "b1"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "d1"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "c2"
+                }
+            ], "Food": 1, "Shelter": 0
+        },
+
+        "c2": {
+            "Body": "Nothing here but some broken husks that used to be buildings. They might be sheltered enough to protect you from the cold night.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "c1"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "b2"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "d2"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "c3"
+                },
+                {
+                    "Text": "Stay in the shelter overnight.",
+                    "Target": "c2"
+                }
+            ], "Food": 0, "Shelter": 1
+        },
+
+        "c4": {
+            "Body": "Nothing Here.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "c3"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "b4"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "d4"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "c5"
+                }
+            ], "Food": 0, "Shelter": 0
+        },
+
+        "c5": {
+            "Body": "Nothing Here.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "c4"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "b5"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "d5"
+                }
+            ], "Food": 0, "Shelter": 0
+        },
+
+        "d1": {
+            "Body": "Nothing here but some broken husks that used to be buildings. They might be sheltered enough to protect you from the cold night.",
+            "Choices": [
+                {
+                    "Text": "Walk West",
+                    "Target": "c1"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "e1"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "d2"
+                },
+                {
+                    "Text": "Stay in the shelter overnight.",
+                    "Target": "d1"
+                }
+            ], "Food": 0, "Shelter": 1
+        },
+
+        "d2": {
+            "Body": "Nothing Here.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "d1"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "c2"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "e2"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "d3"
+                }
+            ], "Food": 0, "Shelter": 0
+        },
+
+        "d3": {
+            "Body": "Nothing Here.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "d2"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "c3"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "e3"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "d4"
+                }
+            ], "Food": 0, "Shelter": 0
+        },
+
+        "d4": {
+            "Body": "Nothing Here.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "d3"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "c4"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "e4"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "d5"
+                }
+            ], "Food": 0, "Shelter": 0
+        },
+
+        "d5": {
+            "Body": "You find a pack of beef jerky on the ground next to some metal wreckage. Life saving protein now courses through your veins.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "d4"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "c5"
+                },
+                {
+                    "Text": "Walk East",
+                    "Target": "e5"
+                }
+            ], "Food": 1, "Shelter": 0
+        },
+
+        "e1": {
+            "Body": "Nothing Here.",
+            "Choices": [
+                {
+                    "Text": "Walk West",
+                    "Target": "d1"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "e2"
+                }
+            ], "Food": 0, "Shelter": 0
+        },
+
+        "e2": {
+            "Body": "You find some Airline peanuts. Yummy.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "e1"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "d2"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "e3"
+                }
+            ], "Food": 1, "Shelter": 0
+        },
+
+        "e3": {
+            "Body": "Nothing Here.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "e2"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "d3"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "e4"
+                }
+            ], "Food": 0, "Shelter": 0
+        },
+
+        "e4": {
+            "Body": "Nothing Here.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "e3"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "d4"
+                },
+                {
+                    "Text": "Walk South",
+                    "Target": "e5"
+                }
+            ], "Food": 0, "Shelter": 0
+        },
+
+        "e5": {
+            "Body": "Nothing here but some broken husks that used to be buildings. They might be sheltered enough to protect you from the cold night.",
+            "Choices": [
+                {
+                    "Text": "Walk North",
+                    "Target": "e4"
+                },
+                {
+                    "Text": "Walk West",
+                    "Target": "d5"
+                },
+                {
+                    "Text": "Open Door",
+                    "Target": "gEnd"
+                },
+                {
+                    "Text": "Stay in the shelter overnight.",
+                    "Target": "e5"
+                }
+            ], "Food": 0, "Shelter": 1
+        },
+
+        "gEnd": {
+            "Body": "You survived!"
+        },
+
+        "fEnd": {
+            "Body": "Because you couldn't find shelter before the frigid night, you froze to death."
+        },
+
+        "hEnd": {
+            "Body": "Because you couldn't find food, you starve to death in the snow."
+        },
+
+        "wEnd": {
+            "Body": "Because you couldn't get back to the well, you pass out from dehydration and freeze to death."
+        },
+
+        "mEnd": {
+            "Body": "The cave you thought was safe shelter ended up being a bear cave. You got mauled to death."
+        }
+    }
+}
